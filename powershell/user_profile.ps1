@@ -4,7 +4,7 @@
 # Prompt
 Import-Module posh-git
 Import-Module oh-my-posh
-Set-PoshPrompt nordtron
+Set-PoshPrompt m365Princess
 
 Import-Module -Name Terminal-Icons
 
@@ -13,7 +13,7 @@ Set-PSReadLineOption -EditMode Emacs
 Set-PSReadLineOption -BellStyle None
 Set-PSReadLineKeyHandler -Chord 'Ctrl+d' -Function DeleteChar
 Set-PSReadLineOption -PredictionSource HistoryAndPlugin
-Set-PSReadLineOption -PredictionViewStyle ListView
+Set-PSReadLineOption -PredictionViewStyle InlineView
 
 # Fzf
 Import-Module PSFzf
@@ -28,6 +28,17 @@ Set-Alias tig 'C:\Program Files\Git\usr\bin\tig.exe'
 Set-Alias less 'C:\Program Files\Git\usr\bin\less.exe'
 Set-Alias zip Compress-Archive
 
+function touch() {
+    $fileName = $args[0]
+    if (-not(Test-Path $fileName)) {
+        New-Item -ItemType File -Name $fileName
+    }
+    else {
+        (Get-ChildItem $fileName).LastWriteTime = Get-Date
+    }
+}
+
 # Esa vaquita loca quiere comer chuchoca
 Import-Module cowsay
 cowsay Some Unix users envy my Powershell prompt XD... Naaaa!!!
+Write-Output ''
