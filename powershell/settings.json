@@ -29,6 +29,7 @@
             "keys": "alt+shift+d"
         }
     ],
+    "alwaysShowTabs": true,
     "copyFormatting": "none",
     "copyOnSelect": false,
     "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
@@ -36,13 +37,14 @@
     {
         "defaults": 
         {
-            "colorScheme": "Dracula",
+            "colorScheme": "Arthur",
             "cursorColor": "#FF0000",
             "cursorShape": "vintage",
             "experimental.retroTerminalEffect": false,
             "font": 
             {
-                "face": "UbuntuMono NF"
+                "face": "UbuntuMono NF",
+                "size": 14
             },
             "opacity": 64,
             "useAcrylic": true
@@ -198,6 +200,29 @@
             "yellow": "#FDF500"
         },
         {
+            "background": "#222324",
+            "black": "#000000",
+            "blue": "#1C98E8",
+            "brightBlack": "#000000",
+            "brightBlue": "#387CD3",
+            "brightCyan": "#3D97E2",
+            "brightGreen": "#77B869",
+            "brightPurple": "#957BBE",
+            "brightRed": "#E05A4F",
+            "brightWhite": "#BABABA",
+            "brightYellow": "#EFD64B",
+            "cursorColor": "#BBBBBB",
+            "cyan": "#1C98E8",
+            "foreground": "#BABABA",
+            "green": "#68C256",
+            "name": "Darkside",
+            "purple": "#8E69C9",
+            "red": "#E8341C",
+            "selectionBackground": "#303333",
+            "white": "#BABABA",
+            "yellow": "#F2D42C"
+        },
+        {
             "background": "#282A36",
             "black": "#21222C",
             "blue": "#BD93F9",
@@ -242,6 +267,52 @@
             "selectionBackground": "#666666",
             "white": "#CCCCCC",
             "yellow": "#FFCC33"
+        },
+        {
+            "background": "#0C0C0C",
+            "black": "#1A1A1A",
+            "blue": "#9D65FF",
+            "brightBlack": "#625E4C",
+            "brightBlue": "#9D65FF",
+            "brightCyan": "#58D1EB",
+            "brightGreen": "#98E024",
+            "brightPurple": "#F4005F",
+            "brightRed": "#F4005F",
+            "brightWhite": "#F6F6EF",
+            "brightYellow": "#E0D561",
+            "cursorColor": "#FC971F",
+            "cyan": "#58D1EB",
+            "foreground": "#D9D9D9",
+            "green": "#98E024",
+            "name": "Monokai Remastered",
+            "purple": "#F4005F",
+            "red": "#F4005F",
+            "selectionBackground": "#343434",
+            "white": "#C4C5B5",
+            "yellow": "#FD971F"
+        },
+        {
+            "background": "#121212",
+            "black": "#121212",
+            "blue": "#0443FF",
+            "brightBlack": "#838383",
+            "brightBlue": "#0443FF",
+            "brightCyan": "#51CEFF",
+            "brightGreen": "#B1E05F",
+            "brightPurple": "#F200F6",
+            "brightRed": "#F6669D",
+            "brightWhite": "#FFFFFF",
+            "brightYellow": "#FFF26D",
+            "cursorColor": "#FB0007",
+            "cyan": "#01B6ED",
+            "foreground": "#F9F9F9",
+            "green": "#98E123",
+            "name": "Monokai Vivid",
+            "purple": "#F800F8",
+            "red": "#FA2934",
+            "selectionBackground": "#FFFFFF",
+            "white": "#FFFFFF",
+            "yellow": "#FFF30A"
         },
         {
             "background": "#282C34",
@@ -426,29 +497,6 @@
             "selectionBackground": "#FFFFFF",
             "white": "#C0C0C0",
             "yellow": "#808000"
-        },
-        {
-            "background": "#171717",
-            "black": "#000000",
-            "blue": "#5DA9F6",
-            "brightBlack": "#313131",
-            "brightBlue": "#A5C7FF",
-            "brightCyan": "#B7FFF9",
-            "brightGreen": "#DDF88F",
-            "brightPurple": "#DDAAFF",
-            "brightRed": "#F58C80",
-            "brightWhite": "#FFFFFF",
-            "brightYellow": "#EEE5B2",
-            "cursorColor": "#BBBBBB",
-            "cyan": "#82FFF7",
-            "foreground": "#DEDACF",
-            "green": "#B1E969",
-            "name": "Wombat",
-            "purple": "#E86AFF",
-            "red": "#FF615A",
-            "selectionBackground": "#453B39",
-            "white": "#DEDACF",
-            "yellow": "#EBD99C"
         }
     ],
     "showTabsInTitlebar": true,

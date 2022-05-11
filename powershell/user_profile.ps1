@@ -1,10 +1,13 @@
 # Set UTF-8 Encoding
 [console]::InputEncoding = [console]::OutputEncoding = New-Object System.Text.UTF8Encoding
 
+# Set Codepage to Windows CP (1252), default CP (65001)
+CHCP 1252 | Out-Null
+
 # Prompt
 Import-Module posh-git
 Import-Module oh-my-posh
-Set-PoshPrompt m365Princess
+Set-PoshPrompt tiwahu
 
 Import-Module -Name Terminal-Icons
 
@@ -27,6 +30,7 @@ Set-Alias grep findstr
 Set-Alias tig 'C:\Program Files\Git\usr\bin\tig.exe'
 Set-Alias less 'C:\Program Files\Git\usr\bin\less.exe'
 Set-Alias zip Compress-Archive
+Set-Alias psqls 'C:\Program Files\PostgreSQL\14\scripts\runpsql.bat'
 
 function touch() {
     $fileName = $args[0]
