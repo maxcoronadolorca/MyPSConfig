@@ -16,6 +16,6 @@
 > - [Glow](https://github.com/charmbracelet/glow) : Render markdown on the CLI, with pizzazz!  
 
 ## Helix Editor
-> **A post-modern modal text editor.**
-> https://helix-editor.com/
-> https://github.com/helix-editor/helix
+> **A post-modern modal text editor. <3**
+> - https://helix-editor.com/
+> - https://github.com/helix-editor/helix
