@@ -10,7 +10,7 @@
 > - [oh my posh](https://github.com/jandedobbeleer/oh-my-posh) : A prompt theme engine for any shell.
 > - [Terminal-Icons](https://github.com/devblackops/Terminal-Icons) : A PowerShell module to show file and folder icons in the terminal.
 > - [PSReadLine](https://github.com/PowerShell/PSReadLine) : A bash inspired readline implementation for PowerShell.
-> - [fzf](chttps://github.com/junegunn/fzf/) : A command-line fuzzy finder.
+> - [fzf](https://github.com/junegunn/fzf/) : A command-line fuzzy finder.
 > - [Posh-Cowsay](https://github.com/kanej/Posh-Cowsay) : Cowsay for Windows Powershell :3
 > - [fx](https://github.com/antonmedv/fx) : Terminal JSON viewer.
 > - [Glow](https://github.com/charmbracelet/glow) : Render markdown on the CLI, with pizzazz!  
