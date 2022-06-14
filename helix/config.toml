@@ -1,10 +1,11 @@
-theme = "autumn"
+theme = "gruvbox"
 
 [editor]
 line-number = "relative"
 true-color = true
 idle-timeout = 0
 completion-trigger-len = 1
+whitespace.render = 'all'
 
 [editor.lsp]
 display-messages = true
