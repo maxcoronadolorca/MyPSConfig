@@ -1,16 +1,21 @@
-theme = "gruvbox"
+theme = "nord"
 
 [editor]
 line-number = "relative"
+mouse = false
+cursorline = true
 true-color = true
 idle-timeout = 0
 completion-trigger-len = 1
-whitespace.render = 'all'
-
-[editor.lsp]
-display-messages = true
 
 [editor.cursor-shape]
 insert = "underline"
 normal = "block"
 select = "bar"
+
+[editor.lsp]
+display-messages = true
+display-inlay-hints = true
+
+[editor.indent-guides]
+render = true

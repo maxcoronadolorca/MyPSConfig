@@ -5,11 +5,8 @@
 CHCP 1252 | Out-Null
 
 # Prompt
-Import-Module posh-git
-Import-Module oh-my-posh
-Set-PoshPrompt tiwahu
-
-Import-Module -Name Terminal-Icons
+Import-Module Terminal-Icons
+oh-my-posh init pwsh --config 'C:\Users\XIOmaxx\AppData\Local\Programs\oh-my-posh\themes\sim-web.omp.json' | Invoke-Expression
 
 # PSReadLine
 Set-PSReadLineOption -EditMode Emacs
@@ -23,26 +20,25 @@ Import-Module PSFzf
 Set-PsFzfOption -PSReadlineChordProvider 'Ctrl+f' -PSReadlineChordReverseHistory 'Ctrl+r'
 
 # Alias
-Set-Alias vim nvim
 Set-Alias ll ls
 Set-Alias g git
 Set-Alias grep findstr
-Set-Alias tig 'C:\Program Files\Git\usr\bin\tig.exe'
-Set-Alias less 'C:\Program Files\Git\usr\bin\less.exe'
 Set-Alias zip Compress-Archive
-Set-Alias psqls 'C:\Program Files\PostgreSQL\14\scripts\runpsql.bat'
+Set-Alias wget aria2c
+
+# My Commands
 
 function touch() {
-    $fileName = $args[0]
-    if (-not(Test-Path $fileName)) {
-        New-Item -ItemType File -Name $fileName
-    }
-    else {
-        (Get-ChildItem $fileName).LastWriteTime = Get-Date
-    }
+  $fileName = $args[0]
+  if (-not(Test-Path $fileName)) {
+    New-Item -ItemType File -Name $fileName
+  }
+  else {
+    (Get-ChildItem $fileName).LastWriteTime = Get-Date
+  }
 }
 
 # Esa vaquita loca quiere comer chuchoca
 Import-Module cowsay
-cowsay Some Unix users envy my Powershell prompt XD... Naaaa!!!
+cowsay -s Some Unix users envy my Powershell prompt XD... Naaaa!!!
 Write-Output ''
