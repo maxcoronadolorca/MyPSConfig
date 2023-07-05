@@ -6,7 +6,7 @@ CHCP 1252 | Out-Null
 
 # Prompt
 Import-Module Terminal-Icons
-oh-my-posh init pwsh --config 'C:\Users\XIOmaxx\AppData\Local\Programs\oh-my-posh\themes\sim-web.omp.json' | Invoke-Expression
+oh-my-posh init pwsh --config 'C:\Users\XIOmaxx\AppData\Local\Programs\oh-my-posh\themes\tiwahu.omp.json' | Invoke-Expression
 
 # PSReadLine
 Set-PSReadLineOption -EditMode Emacs
@@ -39,6 +39,13 @@ function touch() {
 }
 
 # Esa vaquita loca quiere comer chuchoca
-Import-Module cowsay
-cowsay -s Some Unix users envy my Powershell prompt XD... Naaaa!!!
-Write-Output ''
+# Import-Module cowsay
+# cowsay -s Some Unix users envy my Powershell prompt XD... Naaaa!!!
+# Write-Output ''
+# !!! The next cutie beast devoured lady cow :)
+
+# Acrid rules this console environment ...
+out-ConsolePicture '.config/powershell/0012 acrid wtbgmatrix.png'
+Write-Host "... and so he left, with a new hunger:" -ForegroundColor DarkYellow
+Write-Host "    To be left alone." -ForegroundColor Yellow
+Write-Output ""
