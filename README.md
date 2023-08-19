@@ -1,4 +1,5 @@
-# \_\_dot\_\_  
+# My Powershell Config
+> OS: Win10x64_ES  
 
 ## windows terminal
 > https://github.com/Microsoft/Terminal  
@@ -14,6 +15,7 @@
 > - [Posh-Cowsay](https://github.com/kanej/Posh-Cowsay) : Cowsay for Windows Powershell :3
 > - [fx](https://github.com/antonmedv/fx) : Terminal JSON viewer.
 > - [Glow](https://github.com/charmbracelet/glow) : Render markdown on the CLI, with pizzazz!  
+> - [OutConsolePicture](https://github.com/NotNotWrongUsually/OutConsolePicture) : Powershell cmdlet for rendering image files to console.  
 
 ## Helix Editor
 > **A post-modern modal text editor <3**
