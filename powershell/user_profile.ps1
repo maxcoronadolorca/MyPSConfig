@@ -38,6 +38,10 @@ function touch() {
   }
 }
 
+function mklink($target, $link) {
+  New-Item -Path $link -ItemType SymbolicLink -Value $target  
+}
+
 # Esa vaquita loca quiere comer chuchoca
 # Import-Module cowsay
 # cowsay -s Some Unix users envy my Powershell prompt XD... Naaaa!!!
@@ -45,7 +49,7 @@ function touch() {
 # !!! The next cutie beast devoured lady cow :)
 
 # Acrid rules this console environment ...
-out-ConsolePicture '.config/powershell/0012 acrid wtbgmatrix.png'
+out-ConsolePicture '.config/powershell/0012 acrid wtbgcyberpunk2077.png' -TransparencyColor ([System.Drawing.Color]::FromArgb(15, 25, 28))
 Write-Host "... and so he left, with a new hunger:" -ForegroundColor DarkYellow
 Write-Host "    To be left alone." -ForegroundColor Yellow
 Write-Output ""
