@@ -10,3 +10,12 @@ language-server = { command = "pyright-langserver", args = ["--stdio"] }
 indent = { tab-width = 4, unit = "    " }
 # will get "Async jobs timed out" errors if this empty config is not added
 config = {}
+
+[[language]]
+name = "pwsh"
+scope = "source.ps1"
+roots = [".git"]
+file-types = ["ps1"]
+comment-token = "#"
+indent = { tab-width = 2, unit = "  " }
+language-server = { command = "pwsh", args = ["-NoLogo", "-NoProfile", "-Command", "~/Documents/PowerShell/Modules/PowerShellEditorServices/Start-EditorServices.ps1 -BundledModulesPath ~/Documents/PowerShell/Modules -SessionDetailsPath ~/Documents/PowerShell/Modules/powershell_es.sessions.json -LogPath ~/Documents/PowerShell/Modules/powershell_es.log -FeatureFlags @() -AdditionalModules @() -HostName helix -HostProfileId 0 -HostVersion 1.0.0 -Stdio -LogLevel Normal"] }

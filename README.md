@@ -21,3 +21,4 @@
 > **A post-modern modal text editor <3**
 > - https://helix-editor.com/
 > - https://github.com/helix-editor/helix
+> - [PowerShellEditorServices](https://github.com/PowerShell/PowerShellEditorServices) : Add PowerShell support to Helix.
