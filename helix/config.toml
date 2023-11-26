@@ -1,8 +1,8 @@
-theme = "sonokai"
+theme = "serika-dark"
 
 [editor]
 line-number = "absolute"
-mouse = false
+mouse = true
 cursorline = true
 true-color = true
 idle-timeout = 0
